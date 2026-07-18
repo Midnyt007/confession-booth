@@ -126,18 +126,11 @@ python run_baseline.py
 python run_deceptive.py
 ```
 
-### Resume an interrupted run
+### Resume an interrupted run if it crashed because of some accidental errors
 
 ```python
 # In config.py:
 RUN_NAME = "run_20260714_1745_baseline"   # exact folder name in results/
-```
-
-### Generate paper figures
-
-```bash
-python generate_paper_figures.py          # Figures 1–5
-python generate_combined_figures.py       # Figures 6–7 + LIWC table
 ```
 
 ### Compare runs
@@ -173,21 +166,6 @@ results/run_{timestamp}_{mode}/
 └── figures/
 ```
 
----
-
-## Citation
-
-```bibtex
-@misc{kumari2025confessionbooth,
-  author    = {Kumari, Kavita},
-  title     = {The Confession Booth: Detecting Emergent Misalignment
-               through Self-Narratives},
-  year      = {2025},
-  url       = {https://github.com/YOUR_USERNAME/confession-booth},
-}
-```
-
----
 
 ## Acknowledgements
 
